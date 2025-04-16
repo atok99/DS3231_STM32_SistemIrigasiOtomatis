@@ -18,12 +18,11 @@ Proyek ini adalah sistem irigasi otomatis berbasis mikrokontroler STM32F401CCU6 
 
 ## 🧱 Arsitektur Umum Sistem
 
-\`\`\`plaintext
+```plaintext
 [RTC DS3231] ---> [STM32F401CCU6] ---> [Relay] ---> [Pompa / Katup Air]
        (I2C)              (GPIO Output)
-\'\'\'
 
-
+```
 ---
 
 ## 🔧 Langkah-Langkah Pengembangan
@@ -59,8 +58,6 @@ Proyek ini adalah sistem irigasi otomatis berbasis mikrokontroler STM32F401CCU6 
 
 ## 📁 Struktur Folder
 
-## 📁 Struktur Folder
-
 ```plaintext
 STM32_Irigasi/
 │
@@ -87,7 +84,7 @@ STM32_Irigasi/
 ├── MDK-ARM/               # Folder project Keil uVision (.uvprojx, .uvoptx)
 │
 └── README.md              # Dokumentasi proyek
-
+```
 
 
 ## ✅ Fitur
