@@ -18,8 +18,6 @@ Proyek ini adalah sistem irigasi otomatis berbasis mikrokontroler STM32F401CCU6 
 
 ## 🧱 Arsitektur Umum Sistem
 
-## 🧱 Arsitektur Sistem
-
 \`\`\`plaintext
 [RTC DS3231] ---> [STM32F401CCU6] ---> [Relay] ---> [Pompa / Katup Air]
        (I2C)              (GPIO Output)
@@ -61,18 +59,35 @@ Proyek ini adalah sistem irigasi otomatis berbasis mikrokontroler STM32F401CCU6 
 
 ## 📁 Struktur Folder
 
+## 📁 Struktur Folder
+
+```plaintext
 STM32_Irigasi/
 │
-├── Core/                  <- Kode utama dari STM32CubeMX
-├── Drivers/               <- Driver HAL dan user-defined
-├── include/               <- Header files (.h)
-├── src/                   <- Logika penyiraman (tanpa akses hardware)
+├── Core/                  # Kode utama dari STM32CubeMX (main.c, stm32f4xx_it.c, dll)
+│
+├── Drivers/               # Driver HAL dan user-defined
+│   └── STM32F4xx_HAL_Driver/
+│
+├── include/               # Header files (.h) buatan sendiri
+│   ├── logic.h
+│   └── ds3231.h
+│
+├── src/                   # Logika penyiraman (tanpa akses langsung ke hardware)
 │   ├── logic.c
 │   └── ds3231.c
-├── tests/                 <- Unit testing
+│
+├── tests/                 # Unit testing dengan Unity
 │   └── test_logic.c
-├── unity/                 <- Unity framework (unit testing)
-├── README.md              <- Dokumentasi ini
+│
+├── unity/                 # Unity framework untuk unit test
+│   ├── unity.c
+│   └── unity.h
+│
+├── MDK-ARM/               # Folder project Keil uVision (.uvprojx, .uvoptx)
+│
+└── README.md              # Dokumentasi proyek
+
 
 
 ## ✅ Fitur
