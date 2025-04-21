@@ -1,6 +1,6 @@
 # 🌱 Sistem Irigasi Otomatis Berbasis Timer RTC DS3231
 
-Proyek ini adalah sistem irigasi otomatis berbasis mikrokontroler STM32F401CCU6 yang menggunakan modul RTC DS3231 sebagai penentu waktu penyiraman tanaman secara otomatis. Output penyiraman dikontrol melalui relay.
+Proyek ini adalah sistem irigasi otomatis berbasis mikrokontroler STM32 Nucleo-F446RE yang menggunakan modul RTC DS3231 sebagai penentu waktu penyiraman tanaman secara otomatis. Output penyiraman dikontrol melalui relay.
 
 ---
 
