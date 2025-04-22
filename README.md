@@ -177,10 +177,10 @@ STM32_Irigasi_FreeRTOS/
 ---
 
 ## ✅ PENGUJIAN
-### 1 PUMP-ON
+### 1. PUMP-ON
 ![alt text](https://github.com/atok99/DS3231_STM32_SistemIrigasiOtomatis/blob/main/PUMPON.png?raw=true)
 
-### 1 PUMP-OFF
+### 2. PUMP-OFF
 ![alt text](https://github.com/atok99/DS3231_STM32_SistemIrigasiOtomatis/blob/main/PUMPOFF.png?raw=true)
 
 
