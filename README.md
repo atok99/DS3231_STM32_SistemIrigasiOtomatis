@@ -171,6 +171,12 @@ STM32_Irigasi_FreeRTOS/
 
 - 📺 Tampilan waktu dan status sistem pada LCD I2C
 
+---
+
+## ✅ PENGUJIAN
+### 1 PUMP-ON
+
+
 - 🧪 Unit testing logika program untuk meningkatkan keandalan kode
 
 - ⚙️ Multitasking efisien menggunakan FreeRTOS
